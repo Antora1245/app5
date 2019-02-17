@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Hello</title>
+
+<script>
+function A()
+{
+alert('Your command is successfully implemented');
+}
+
+function O()
+{
+var t1data=document.getElementById("t1").value;
+var t2data=document.getElementById("t2").value;
+var t3data=document.getElementById("t3").value=t1data+t2data;
+
+var t4data=document.getElementById("t4").innerHTML='so, here is your full name:';
+var t4data=document.getElementById("t4").style.color="blue";
+
+}
+</script>
+
+<style>
+
+body
+{
+background-image:url("bg1.jpg");
+margin:100px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1 style="padding-top:100px; color:white; font-size:48;" align="center"><b><i><u>Hey Just Enter The Value <br> And <br> See The Magic....</u></i></b></h1>
+<form>
+ 
+<p style="color:purple; font-size:28;"><b><i>Type Your Firstname Here:</i></b>
+<input type='text' name='fname' placeholder='yourfirstName' id='t1' value=''/></p><br><br><br><br>
+
+<p style="color:purple; font-size:28;"><b><i>Type Your Lastname Here:</i></b>
+<input type='text' name='lname' placeholder='yourlastName' id='t2' value=''/></p><br><br>
+
+<input type="button" value="Submit"  onclick="A();" style="color:yellow; background-color:purple;"> </button><br><br><br><br>
+
+<p id='t4' style="color:purple; font-size:28;"><b><i>Your full name will appear :</i></b>
+<input type="button" value="PressHere"  onclick="O();" style="color:yellow; background-color:purple;"> </button></p>
+
+
+<p style="color:purple; font-size:20;"><b><i>Fullname:</i></b>
+<input type='text' name=/fullname' id='t3'/><br></p><br><br><br><br>
+
+<a href="../welcome.html">Go to the main page</a>
+
+</form>
+</body>
+</html>
